@@ -23,14 +23,22 @@ Since gold-api.com doesn't provide historical change data, the bot maintains its
 ```env
 DISCORD_BOT_TOKEN=
 
-BTC_CHANNEL_ID=      BTC_WEBHOOK=
-ETH_CHANNEL_ID=      ETH_WEBHOOK=
-SOL_CHANNEL_ID=      SOL_WEBHOOK=
-BNB_CHANNEL_ID=      BNB_WEBHOOK=
-TON_CHANNEL_ID=      TON_WEBHOOK=
-XMR_CHANNEL_ID=      XMR_WEBHOOK=
-GOLD_CHANNEL_ID=     GOLD_WEBHOOK=
-SILVER_CHANNEL_ID=   SILVER_WEBHOOK=
+BTC_CHANNEL_ID=      
+BTC_WEBHOOK=
+ETH_CHANNEL_ID=      
+ETH_WEBHOOK=
+SOL_CHANNEL_ID=      
+SOL_WEBHOOK=
+BNB_CHANNEL_ID=      
+BNB_WEBHOOK=
+TON_CHANNEL_ID=      
+TON_WEBHOOK=
+XMR_CHANNEL_ID=      
+XMR_WEBHOOK=
+GOLD_CHANNEL_ID=     
+GOLD_WEBHOOK=
+SILVER_CHANNEL_ID=   
+SILVER_WEBHOOK=
 ```
 
 Requires `background.png` in the working directory and DejaVu fonts on the host.
