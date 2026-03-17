@@ -12,7 +12,7 @@ Each asset gets a dedicated channel — the bot updates the channel name with th
 - **Metals** via gold-api.com: Gold, Silver
 
 ### How metal change % works
-Since gold-api.com doesn't provide historical change data, the bot maintains its own `price_history.json` — sampling prices every 5 minutes and calculating 1H / 12H / 24H / 7D change internally. History is pruned to a rolling 30-day window.
+Since gold-api.com doesn't provide historical change data, the bot maintains its own `price_history.json`, sampling prices every 5 minutes and calculating 1H/12H/24H/7D changes internally. Json history is pruned on a rolling 30-day window. When running a fresh install, it will take time for the price history to build up before it incrementally adds the hourly changes to the printed price cards.
 
 ## Setup
 1. Make a channel for each asset you want to track
