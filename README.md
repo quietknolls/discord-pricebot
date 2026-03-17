@@ -1,7 +1,7 @@
 # Discord Pricebot
 Track crypto and precious metal prices in Discord.
 
-![example](example.png)
+![example](example.jpg)
 
 Each asset gets a dedicated channel — the bot updates the channel name with the live price every 5 minutes and renders and sends a price card to the channel.
 
