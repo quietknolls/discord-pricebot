@@ -1,0 +1,15 @@
+# Environment
+.env
+.env.*
+
+# Rust build artifacts
+/target/
+
+# Runtime data
+price_history.json
+
+# Editor/OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
